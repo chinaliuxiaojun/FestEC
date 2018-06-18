@@ -30,18 +30,19 @@ public class ExampleDelegate extends LatteDelegate {
 
     private void testRestClient() {
         RestClient.builder()
-                .url("http://news.baidu.com")
-                .loader(getContext())
+                .url("http://127.0.0.1/index/")//http://192.168.0.102/index  http://news.baidu.com/
+                .loader(getContext())//进度圈
                 //  .params("", "")
                 .success(new ISuccess() {
                     @Override
                     public void onSuccess(String response) {
-                     //   Toast.makeText(getContext(),response,Toast.LENGTH_LONG).show();
+                        Toast.makeText(getContext(),response,Toast.LENGTH_LONG).show();
                     }
                 })
                 .failure(new IFailure() {
                     @Override
                     public void onFailure() {
+
                     }
                 })
                 .error(new IError() {
