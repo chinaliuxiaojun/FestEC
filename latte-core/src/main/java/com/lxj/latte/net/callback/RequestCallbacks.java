@@ -2,8 +2,8 @@ package com.lxj.latte.net.callback;
 
 import android.os.Handler;
 
-import com.lxj.latte.ui.LatteLoader;
-import com.lxj.latte.ui.LoaderStyle;
+import com.lxj.latte.ui.loder.LatteLoader;
+import com.lxj.latte.ui.loder.LoaderStyle;
 
 
 

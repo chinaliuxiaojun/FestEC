@@ -1,4 +1,4 @@
-package com.lxj.latte.ui;
+package com.lxj.latte.ui.loder;
 
 import android.content.Context;
 import android.support.v7.app.AppCompatDialog;

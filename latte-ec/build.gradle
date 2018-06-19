@@ -1,6 +1,6 @@
 apply plugin: 'com.android.library'
 apply plugin: 'com.jakewharton.butterknife'
-
+apply plugin: 'org.greenrobot.greendao'//需要生成相应dao的gradle下写
 android {
     compileSdkVersion 26
 

@@ -1,4 +1,4 @@
-package com.lxj.latte.ui;
+package com.lxj.latte.ui.loder;
 
 
 /**
